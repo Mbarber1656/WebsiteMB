@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- displays site properly
+based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/Mb.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Matthew Barber | Portfolio Website</title>
+    <script src="js\buttonScript.js"></script>
+<!-- Feel free to remove these styles or customise in your own stylesheet ￿ -->
+</head>
+<body>
+    <h1 class="header" id = "name">Matthew Barber</h1>
+    <!--self description-->
+    <p class ="description" id="MyDsc">Hello, I am a full time student at NIC who also works a part time job. I have a passion for coding and all things video games. I love the feeling of a project coming together and watching all of the pieces slot into place. I am an easy-going person who finds it easy to work with all sorts of people. I would be happy to work on any task that requires me to learn and expand on my skills</p>
+    <!--Image of myself or character representing me-->
+
+    <!--Skills Box-->
+    <h2 class ="header">Skills</h2>
+    <div id = "skills_box">
+        <div id = "skill1">
+            <!--Image-->
+            <h3>Web Devlopment</h3>
+            <p class = "Skilldsc">Developing websites to create a good visual experience for the user or customer</p>
+            <h4>Languages</h4>
+            <p class = "Skilldsc">HTML, CSS, JavaScript</p>
+        </div>
+        <div id = "skill2">
+            <!--Image-->
+            <h3>General Coding</h3>
+            <p class = "Skilldsc">Using programming to createsolutions to problems for use in other programs</p>
+            <h4>Languages</h4>
+            <p class = "Skilldsc">C, C++, Prolog, Python</p>
+        </div>
+    </div>
+        <!--Projects Box-->
+    <h2 class ="header">Projects</h2>
+    <div class = "Project_box">
+        <div class = "projects" id = "project1">
+            <div id="p1img">
+                <!--Image-->
+                <img src="images\book.png" id="pimg" alt="Books" width ="250px" height = "250px">
+            </div>
+            <div class ="Pdsc" id="p1dsc">
+                <h3>Lexer</h3>
+                <p class ="Prodsc">Lexical analyzer used to separate each component of a program and sort them into their own categories. Such as: integer, string literal, keyword, etc…</p>
+                <span class ="Project_button" data-url="https://github.com/Mbarber1656/lexer-mid-term"> View Project</span>
+            </div>
+        </div>
+        <div class = "projects" id = "project2">
+            <div id="p2img">
+                <!--Image-->
+                <img src="images\baseball.jpg" id="pimg" alt="Baseball" width ="250px" height = "250px">
+            </div>
+            <div  class ="Pdsc" id="p2dsc">
+                <h3>Vectors</h3>
+                <p class ="Prodsc">This program reads information about baseball teams from a file and stores it into a vector before sorting and displaying back to the user.</p>
+                <span class ="Project_button" data-url="https://github.com/Mbarber1656/Pa10Vector"> View Project</span>
+            </div>
+        </div>
+        <div class = "projects" id = "project3">
+            <div id="p3img">
+                <!--Image-->
+                <img src="images\Web-scraping.png" id="p3img" alt="WebScrape" width ="400px" height = "250px">
+            </div>
+            <div  class ="Pdsc" id="p3dsc">
+                <h3>Web Scraper</h3>
+                <p class ="Prodsc">Basic webscraping capabilities using python to sort through the html of a yahoo finance website, pulling information about prices and saving them into a .finance directory</p>
+                <span class ="Project_button" data-url="https://github.com/Mbarber1656/pa7PythonStocks"> View Project</span>
+            </div>
+        </div>
+    </div>
+    <!--Exp Box-->
+    <h2 class ="header">Experience</h2>
+    <div id = "Exp_box">
+        <div id = "Expdate">
+            <h4>2024-2025</h4>
+        </div>
+        <div id = "Expdsc">
+            <h3>North Idaho College</h3>
+            <p class ="expdsc">Major in Computer Science and my primary introduction to many coding languages</p>
+        </div>
+    </div>
+</body>
+</html>
